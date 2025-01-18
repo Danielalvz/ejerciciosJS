@@ -1,6 +1,6 @@
-//Ejercicios 27 a 32
+//Ejercicios 27 a 33
 console.log("\n Ejercicios 27 a 32 \n");
-//Operaciones matemáticas
+//Operaciones matemáticas de dos numeros
 console.log("\n Ejercicios 27\n");
 
 
@@ -51,6 +51,7 @@ const sideOfTriangle3 = 5;
 console.log(`El perimetro de un triangulo de lado ${sideOfTriangle1}, ${sideOfTriangle2} y ${sideOfTriangle3} es ${sideOfTriangle1 + sideOfTriangle2 + sideOfTriangle3}`);
 
 console.log("\n Ejercicio 32 \n");
+//Area y perimetro de rectangulo
 
 const height = 10;
 const base = 4;
@@ -59,6 +60,21 @@ let rectangleArea = height * base;
 
 console.log(`El perimetro de un rectangulo de altura ${height}, y de base ${base} es ${rectanglePerimeter}`);
 console.log(`El área de un rectangulo de altura ${height}, y de base ${base} es ${rectangleArea}`);
+
+console.log("\n Ejercicio 33 \n");
+let numberOfUsers = 100;
+
+numberOfUsers += 5;
+console.log(`Cantidad de usuarios: ${numberOfUsers}`);
+
+numberOfUsers -= 3;
+console.log(`Cantidad de usuarios: ${numberOfUsers}`);
+
+numberOfUsers *= 2;
+console.log(`Cantidad de usuarios: ${numberOfUsers}`);
+
+numberOfUsers /= 2;
+console.log(`Cantidad de usuarios: ${numberOfUsers}`);
 
 
 
