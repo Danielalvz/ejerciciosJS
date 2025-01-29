@@ -1,0 +1,8 @@
+Los siguientes valores se transformar en falso:
+false
+null
+undefined
+0
+NaN
+''
+Cualquier otro valor se transforma en verdadero
